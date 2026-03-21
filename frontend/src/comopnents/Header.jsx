@@ -2,8 +2,10 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div>
-      <h1>My App</h1>
+    <div className='bg-gray-800 text-white p-4'>
+      <div>
+
+      </div>
     </div>
   )
 }
