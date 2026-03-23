@@ -7,14 +7,14 @@ export const Header = () => {
         <h1 className='text-2xl font-bold text-gray-800 ml-6 cursor-pointer'>My App</h1>
         <nav>
           <ul className='flex space-x-7'>
-            <li><a href='#' className='text-gray-800 hover:text-gray-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-white/20'>Home</a></li>
-            <li><a href='#' className='text-gray-800 hover:text-gray-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-white/20'>About</a></li>
-            <li><a href='#' className='text-gray-800 hover:text-gray-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-white/20'>Contact</a></li>
+            <li><a href='/' className='text-gray-800 hover:text-gray-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-white/20'>Home</a></li>
+            <li><a href='/about' className='text-gray-800 hover:text-gray-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-white/20'>About</a></li>
+            <li><a href='/contact' className='text-gray-800 hover:text-gray-600 transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-white/20'>Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-  )
+  )  
 }
 
 
