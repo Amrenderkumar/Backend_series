@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header} from './comopnents/Header'
+import {Header} from './comopnents/Components all/Header'
 import Demo from './comopnents/Demo'
 import Demo1 from './comopnents/Demo1'
 const App = () => {
