@@ -2,7 +2,7 @@ import React from 'react'
 
 const Demo1 = () => {
     return (
-        <div className='mt-3'>
+        <div className='m-6'>
             <div className=' max-w-sm mx-auto bg-black text-white rounded-xl overflow-hidden md:max-w-xl'>
                 <div className='md:flex'>
                     <div>
