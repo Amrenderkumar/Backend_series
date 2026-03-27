@@ -1,13 +1,11 @@
 import React from 'react'
 import {Header} from './comopnents/Components all/Header'
-import Demo from './comopnents/Demo'
-import Demo1 from './comopnents/Demo1'
+import Page1 from './comopnents/Components all/Page1'
 const App = () => {
   return (
     <div>
      <Header />
-     <Demo />
-     <Demo1 />
+     <Page1 />
     </div>
   )
 }
