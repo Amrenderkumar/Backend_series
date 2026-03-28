@@ -4,7 +4,7 @@ import Icons from '../Icons'
 const Page1 = () => {
   return (
       <div className='md:h-[82vh] h-auto w-full '>
-        <div className='md:flex justify-between items-center gap-12 m-6 h-full bg-gray-100 rounded-2xl shadow-lg p-10'>
+        <div className='md:flex justify-between items-center m-6 h-full bg-gray-100 rounded-2xl shadow-lg p-10'>
             <div className='items-center'>
                 <Icons />
             </div>
