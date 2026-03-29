@@ -3,27 +3,12 @@ import Icons from '../Icons'
 
 const Page1 = () => {
   return (
-    <div className='w-full min-h-screen px-4 py-6'>
-      
-      <div className='flex flex-col md:flex-row items-center justify-between 
-      bg-gray-100 rounded-2xl shadow-lg p-6 md:p-10 gap-6'>
-        
-        {/* Icon Section */}
-        <div className='w-full md:w-1/2 flex justify-center'>
-          <Icons className='h-40 md:h-full' />
-        </div>
-
-        {/* Text Section */}
-        <div className='w-full md:w-1/2 text-center md:text-left'>
-          <h1 className='text-2xl md:text-4xl font-bold'>
-            Welcome to My Page
-          </h1>
-          <p className='mt-4 text-gray-600 text-sm md:text-base'>
-            This is a sample page to demonstrate the layout.
-          </p>
-        </div>
-
-      </div>
+    <div className='relative h-screen bg-[url("https://images.unsplash.com/photo-1600185365483-26d7a4cc7519")] bg-cover bg-center'>
+       <div className='absolute top-80 md:left-30 text-center md:text-left left-5 md:top-90 xl:top-100'>
+        <h1 className='text-5xl font-bold text-black mb-4'>Welcome to My App</h1>
+        <p className='text-xl text-slate-600 mb-8'>This is a sample page with a background image.</p>
+        <button className='bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors duration-200'>Get Started</button>
+       </div>
     </div>
   )
 }
