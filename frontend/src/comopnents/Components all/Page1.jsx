@@ -3,17 +3,28 @@ import Icons from '../Icons'
 
 const Page1 = () => {
   return (
-      <div className='md:h-[82vh] h-auto w-full '>
-        <div className='md:flex justify-between grid items-center m-6 h-full bg-gray-100 rounded-2xl shadow-lg p-10'>
-            <div className='items-center ml-14 md:mb-0'>
-                <Icons className='h-full '/>
-            </div>
-            <div>
-                <h1 className='text-3xl font-bold text-center mt-10'>Welcome to My Page</h1>
-                <p className='text-center mt-4 text-gray-600'>This is a sample page to demonstrate the layout.</p>
-            </div>
+    <div className='w-full min-h-screen px-4 py-6'>
+      
+      <div className='flex flex-col md:flex-row items-center justify-between 
+      bg-gray-100 rounded-2xl shadow-lg p-6 md:p-10 gap-6'>
+        
+        {/* Icon Section */}
+        <div className='w-full md:w-1/2 flex justify-center'>
+          <Icons className='h-40 md:h-full' />
         </div>
+
+        {/* Text Section */}
+        <div className='w-full md:w-1/2 text-center md:text-left'>
+          <h1 className='text-2xl md:text-4xl font-bold'>
+            Welcome to My Page
+          </h1>
+          <p className='mt-4 text-gray-600 text-sm md:text-base'>
+            This is a sample page to demonstrate the layout.
+          </p>
+        </div>
+
       </div>
+    </div>
   )
 }
 

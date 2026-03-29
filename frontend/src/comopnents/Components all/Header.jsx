@@ -1,8 +1,9 @@
 import React from 'react'
 export const Header = () => {
   return (
-    <header className='bg-blue-100 backdrop-blur-md border border-white/30 rounded-2xl shadow-lg p-6 m-6'>
-      <div className='flex justify-between items-center gap-12'>
+    <header className='absolute top-5 left-1/2 -translate-x-1/2 w-[90%] z-20'>
+      <div className='bg-white/30 backdrop-blur-md border border-white/30 rounded-4xl shadow-lg px-6 py-4'>
+        <div className='flex justify-between items-center gap-12'>
         <h1 className='text-2xl font-bold text-gray-800 ml-6 cursor-pointer'> My App</h1>
         <nav className='hidden md:block'>
           <ul className='flex space-x-7'>
@@ -12,6 +13,7 @@ export const Header = () => {
           </ul>
         </nav>
         <div className='md:hidden block text-3xl '><a href="#">&#8801;</a></div>
+      </div>
       </div>
     </header>
   )  
