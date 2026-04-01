@@ -10,7 +10,9 @@ const Card = () => {
             <div>
                 <h2 className='text-xl'>{name.split(',')[0]}</h2>
             </div>
-            <div></div>
+            <div>
+              <h1>{name.split(',')[1]}</h1>
+            </div>
       </div>
     </div>
   )
