@@ -12,6 +12,7 @@ const Card = () => {
             </div>
             <div>
               <h1>{name.split(',')[1]}</h1>
+              <h2>{name.split(',')[2]}</h2>
             </div>
       </div>
     </div>
