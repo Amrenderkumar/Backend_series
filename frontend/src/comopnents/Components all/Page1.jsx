@@ -3,7 +3,7 @@ import Icons from '../Icons'
 
 const Page1 = () => {
   return (
-    <div className='relative h-screen bg-[url("https://images.unsplash.com/photo-1600185365483-26d7a4cc7519")] bg-cover bg-center'>
+    <div className='relative h-screen bg-[url("https://www.youtube.com/watch?v=CubtcwIZEWc")] bg-cover bg-center'>
       <div className='absolute inset-0 bg-white/70 md:bg-white/40'></div>
       <div className='relative z-10 flex items-center h-full px-5 md:px-16'>      
         <div className='max-w-xl text-center md:text-left'>
