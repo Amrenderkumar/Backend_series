@@ -9,7 +9,7 @@ const Demo = () => {
                 </div>
                 <div>
                     <div className='text-xl text-white font-medium '>
-                        Amrender Kumar
+                        Amrender Kumar 
                         <p className='text-slate-400'>My Channel Demo </p>
                     </div>
                 </div>
