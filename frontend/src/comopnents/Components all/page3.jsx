@@ -2,7 +2,7 @@ import Page3card from "./page3card"
 
 const page3 = () => {
   return (
-    <div className='bg-gray-200 w-full px-4 py-6 sm:px-6 lg:px-10'>
+    <div className='bg-gray-300 w-full px-4 py-6 sm:px-6 lg:px-10'>
       <div className='flex flex-col gap-4 lg:flex-row lg:items-stretch'>
         <div className='w-full  text-white p-4  md:p-6 lg:w-1/2 lg:p-8'>
           <div className='overflow-hidden rounded-xl bg-black'>
