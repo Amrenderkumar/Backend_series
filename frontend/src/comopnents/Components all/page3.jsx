@@ -19,7 +19,6 @@ const page3 = () => {
             />
           </div>
         </div>
-
         <div className='w-full  p-4 md:p-6 lg:w-1/2 lg:p-8  bg-gray-200 rounded-lg'>
           <Page3card />
         </div>
