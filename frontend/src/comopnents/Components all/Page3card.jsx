@@ -6,7 +6,7 @@ const Page3card = () => {
       <div className='justify-center items-center text-center'>
         <h1 className='font-bold text-xl md:text-2xl lg:text-3xl'>PAGE 3 CARD</h1>
       </div>
-      <div>
+      <div className='h-4 text-amber-100'>
         <p className=' text-gray-600 text-sm md:text-base lg:text-lg mt-4 justify-center items-center text-center '>
           This is a card component that <span className='font-bold flex text-center justify-center'>can be used to display content in a visually</span>  appealing way. It can contain text, images, and other elements to create a cohesive design.
         </p>
